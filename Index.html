@@ -11,5 +11,16 @@
     <header class="container p-2 bg-light">
         <h1 class="text-center text-info display-1">npm</h1>
     </header>
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('header').on('click', function(){
+                let header_text = $('h1').text()
+                alert(header_text)
+            })
+        })
+    </script>
 </body>
 </html>
