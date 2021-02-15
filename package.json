@@ -1,0 +1,21 @@
+{
+  "name": "bootstrap_install",
+  "version": "1.0.0",
+  "description": "bootstrap install with npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Bootstrap with npm"
+  },
+  "keywords": [
+    "BWN"
+  ],
+  "author": "Md Abdullah Fardus",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta2"
+  }
+}
